@@ -34,6 +34,24 @@
         </li>
       </ul>
     </nav>
+    <div class="container">
+      <p>
+        These circles are drawn using trigonometry, which makes them more customisable, rather than turtle's built in Turtle.circle() method.
+        The hypotemuse of the right angled triangle's length is the radius of the circle. The right angle can be at either 0,0 or x,y of the
+        point. One of the is set to the angle in the circle that is being found out (first 0, then 1, then 2 etc.), and using the
+        formula <code>sin θ = opposite / hypotemuse</code>, rearanged to <code>opposite = sin θ * hypotemuse</code> we work out the y, as the
+        opposite will be a straight vertical line. We also use <code>cos θ = adjacent / hypotemuse</code>, rearranged to
+        <code>adjacent = cos θ * hypotemuse</code>, to work out the x, as the adjacent side will be a straight horizontal line. Therefore,
+        presuming the centre of the circle is at [0,0], the points x will be the length of the adjacent and the y that of the opposite.
+      </p>
+      <p>
+        <a href="#variation-1">Variation 1 shows these triangles in use, which then creates a pattern</a>
+      </p>
+      <p>
+        In variations 2, 3, and 4, patterns appear because lines cannot be perfectly straight on a computer if they are diagonal and sometimes
+        the lines are closer together or further apart; these patterns are not purposefully generated through code.
+      </p>
+    </div>
     <div data-bs-spy="scroll" data-bs-target="#navbar" data-bs-offset="0" tabindex="0" class="container">
       <h4 id="standard">Standard</h4>
       <iframe src="https://trinket.io/embed/python/b41746f8c4?toggleCode=true" width="100%" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
